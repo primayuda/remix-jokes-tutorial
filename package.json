@@ -1,0 +1,40 @@
+{
+  "name": "remix-jokes-tutorial",
+  "version": "5.0.0",
+  "private": true,
+  "prisma": {
+    "seed": "node --require esbuild-register prisma/seed.ts"
+  },
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "@prisma/client": "^4.2.1",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remix": "latest"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "prisma": "^4.2.1",
+    "typescript": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false,
+  "keywords": [],
+  "description": ""
+}
